@@ -1,0 +1,48 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+theme: jekyll-theme-hydejack
+
+favicon: /assets/icons/favicon/favicon.ico
+apple_touch_icon: /assets/icons/favicon/apple-touch-icon.png
+
+accent_image: /assets/images/bg.jpg
+accent_color: rgb(32,69,62)
+
+font:         Arial, sans-serif
+font_heading: Verdana, sans-serif
+google_fonts: false
+
+title: Erik Pallas
+tagline: Formal Methods in Cyber Security
+logo: /assets/images/profile-pic.jpg
+
+hydejack:
+  dark_mode:
+    dynamic: true
+    icon:    true
+    always:  false
+
+author:
+  name:  Erik Pallas
+  social:
+    github: Porrum
+    linkedin: erik-pallas-236955208
+    scholar: VU5nHf4AAAAJ
+
+menu:
+  - title: Research
+    url:   /research/
+  - title: Publications
+    url:   /publications/
+  - title: CV
+    url:   /cv/
+
+legal:
+  - title: Contact
+    url:  /contact/
+  - title: Privacy Statement
+    url:  /privacy-statement/
+
+copyright: © 2026. All rights reserved.

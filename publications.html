@@ -1,0 +1,31 @@
+---
+layout: default
+title: Publications
+---
+This is a complete list of my publications. Alternatively, you can take a look at my
+<a href="https://orcid.org/0000-0001-5363-8030">
+    <img alt="ORCiD logo" src="/assets/icons/orcid/orcid_16x16.png" width="16" height="16" />
+    ORCiD record
+</a>
+or my
+<a href="https://scholar.google.com/citations?user=VU5nHf4AAAAJ">
+    <img alt="Google Scholar logo" src="/assets/icons/google-scholar/Google_Scholar_logo.svg" width="16" height="16"/>
+    Google Scholar
+</a>
+profile.
+
+{% for item in site.data.publications %}
+    <hr>
+    <h2 style="margin-bottom: 0px; margin-top: 2%;">{{ item.year }}</h2><br>
+    {% for publication in item.publications %}
+        <p style="margin: 0px">
+            <small>{{ publication.authors }}</small><br>
+            {{ publication.date }} | {{ publication.venue }} 
+            {% if publication.doi %}| <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}<br>
+            <details>
+                <summary><strong>{{ publication.title }}</strong></summary>
+                {{ publication.abstract }}
+            </details>
+        </p>
+    {% endfor %}
+{% endfor %}

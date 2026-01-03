@@ -1,0 +1,21 @@
+- year: 2026
+  publications:
+  - title: 'Secure Protocol Composition under Dynamic Corruption: Scaling Up Symbolic Analysis of Real-World Security Protocols'
+    date: '08/2026'
+    authors: 'Cas Cremers, Erik Pallas, Aleksi Peltonen'
+    venue: 'to appear at Usenix Security 2026'
+    abstract: |-
+      <p>Although automated symbolic protocol verification has proven valuable and effective, current approaches begin to reach their limits: While small protocols can be analyzed automatically, the most complex case studies often require substantial expert time and resources. There have been many attempts to solve this problem by compositional verification, but they rely on unrealistic protocol assumptions and do not support real-world security properties like Forward Secrecy.</p>
+
+      <p>In this work, we enable compositional symbolic analysis for real-world security protocols with respect to modern security properties. We develop a composition result in the Applied π-Calculus that holds even in the presence of attackers capable of dynamic corruption if the protocols satisfy a disjointness requirement.</p>
+
+      <p>We demonstrate the applicability and effectiveness of our result on the composition of a data exchange protocol with a Diffie-Hellman key exchange and a compositional analysis of Forward Secrecy in TLS 1.3 within the scope of RFC 8446 and the ECH extension. While monolithic analyses of the latter fail to deliver a result in 10% of cases, all compositional analyses succeed. Additionally, runtime decreases by 71% and memory usage by 86% on average.</p>
+- year: 2023
+  publications:
+  - title: 'Goal-Aware RSS for Complex Scenarios via Program Logic'
+    date: '04/2023'
+    authors: 'Ichiro Hasuo, Clovis Eberhart, James Haydon, Jérémy Dubut, Rose Bohrer, Tsutomu Kobayashi, Sasinee Pruekprasert, Xiao-Yi Zhang, Erik Pallas, Akihisa Yamada, Kohei Suenaga, Fuyuki Ishikawa, Kenji Kamijo, Yoshiyuki Shinya, Takamasa Suetomi'
+    venue: 'IEEE Transactions on Intelligent Vehicles'
+    doi: '10.1109/TIV.2022.3169762'
+    abstract: |-
+      We introduce a goal-aware extension of responsibility-sensitive safety (RSS), a recent methodology for rule-based safety guarantee for automated driving systems (ADS). Making RSS rules guarantee goal achievement — in addition to collision avoidance as in the original RSS — requires complex planning over long sequences of manoeuvres. To deal with the complexity, we introduce a compositional reasoning framework based on program logic, in which one can systematically develop RSS rules for smaller subscenarios and combine them to obtain RSS rules for bigger scenarios. As the basis of the framework, we introduce a program logic dFHL that accommodates continuous dynamics and safety conditions. Our framework presents a dFHL-based workflow for deriving goal-aware RSS rules; we discuss its software support, too. We conducted experimental evaluation using RSS rules in a safety architecture. Its results show that goal-aware RSS is indeed effective in realising both collision avoidance and goal achievement.
