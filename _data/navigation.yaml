@@ -1,10 +1,8 @@
 - name: Home
   link: /
 - name: Research
-  link: /research
+  link: /research.html
 - name: CV
   link: /cv.html
 - name: Publications
   link: /publications.html
-- name: About
-  link: /about.html
