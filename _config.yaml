@@ -33,16 +33,16 @@ author:
 
 menu:
   - title: Research
-    url:   /research/
+    url:   /research
   - title: Publications
-    url:   /publications/
+    url:   /publications
   - title: CV
-    url:   /cv/
+    url:   /cv
 
 legal:
   - title: Contact
-    url:  /contact/
+    url:  /contact
   - title: Privacy Statement
-    url:  /privacy-statement/
+    url:  /privacy-statement
 
 copyright: © 2026. All rights reserved.
