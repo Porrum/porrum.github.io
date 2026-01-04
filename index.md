@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello World!
+title: Hi there!
 cover: true
 ---
 I'm Erik, a doctoral researcher at CISPA Helmholtz Center for Information Security. My research focuses on the application of formal methods to the analysis of security protocols. You can read more about it [here](/research).
