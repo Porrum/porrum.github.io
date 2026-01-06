@@ -4,7 +4,7 @@ title: Research
 ---
 My research is at the intersection of formal methods, automated reasoning and security.
 
-Currently, I am working towards my PhD, supervised by [Prof. Dr. Cas Cremers](https://people.cispa.io/cas.cremers/). My research centers on formal methods and their applications to cyber security. More specifically, I investigate how the analysis of cryptographic protocols can be scaled from basic to more complex protocols, and from single protocols to systems consisting of multiple protocols.
+Currently, I am working towards my Ph.D., supervised by [Prof. Dr. Cas Cremers](https://people.cispa.io/cas.cremers/). My research centers on formal methods and their applications to cyber security. More specifically, I investigate how the analysis of cryptographic protocols can be scaled from basic to more complex protocols, and from single protocols to systems consisting of multiple protocols.
 
 In this, my focus is on the _composability_ of cryptographic protocols: How can we derive security guarantees of protocols and multi-protocol systems from the analysis of their respective building blocks? I aim to understand under which requirements protocols can be securely composed to form a larger protocol or system, when they cannot be securely composed, and how the properties of individual (sub-)protocols influence the security guarantees provided by their composition.
 
